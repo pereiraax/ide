@@ -1,0 +1,1057 @@
+    1  ll
+    2  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    3  LS
+    4  ls -l
+    5  cd /
+    6  exot
+    7  cd /mnt/c/Users/perei/WORKSPACE
+    8  vim
+    9  vim ~/.bashrc
+   10  exit
+   11  azeaze
+   12  uname
+   13  cd //wsl$/
+   14  cd //wsl$/Ubuntu
+   15  ls
+   16  pwd
+   17  npm
+   18  sudo apt-get update
+   19  sudo apt-get install nodejs
+   20  nvm --version
+   21  bash
+   22  zsh
+   23  npm version
+   24  node 
+   25  node -v
+   26  npm -v
+   27  nvm
+   28  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+   29  nvm 
+   30  node -v
+   31  cd /usr/local/bin
+   32  ls
+   33  ls -l
+   34  ls -a
+   35  export NVM_DIR="$HOME/.nvm"
+   36  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+   37  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+   38  nvm
+   39  nvm install node
+   40  cd
+   41  node -v
+   42  npm -v
+   43  docker
+   44  docker version
+   45  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   46  sudo apt-key fingerprint 0EBFCD88
+   47  sudo add-apt-repository \\n   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \\n   $(lsb_release -cs) \\n   stable"
+   48  sudo apt-get update -y
+   49  sudo apt-get install -y docker-ce
+   50  sudo usermod -aG docker $USER
+   51  docker info
+   52  echo "export DOCKER_HOST=tcp://localhost:2375" >> ~/.bashrc && source ~/.bashrc
+   53  ls
+   54  zsh
+   55  ls
+   56  docker info
+   57  echo "export DOCKER_HOST=tcp://localhost:2375" >> ~/.zshrc && source ~/.zshrc
+   58  docker info
+   59  exit
+   60  docker info
+   61  export DOCKER_HOST=tcp://localhost:2375
+   62  docker info
+   63  export DOCKER_HOST=tcp://localhost:2375
+   64  docker info
+   65  export DOCKER_HOST=tcp://localhost:2375
+   66  docker info
+   67  export DOCKER_HOST=tcp://127.0.0.1:2375
+   68  docker info
+   69  docker version
+   70  bash
+   71  exit
+   72  dockerd
+   73  sudo dockerd
+   74  exit
+   75  service docker start
+   76  sudo service docker start
+   77  docker info
+   78  vim .~/.zshrc
+   79  vim ~/.bashrc
+   80  echo $DOCKER_HOST
+   81  set $DOCKER_HOST=""
+   82  docker info
+   83  service docker status
+   84  docker-init
+   85  sudo nano /usr/local/sbin/start_docker.sh
+   86  sudo /usr/local/sbin/start_docker.sh
+   87  sudo exec /usr/local/sbin/start_docker.sh
+   88  cd /usr/local/sbin
+   89  ls
+   90  ./start_docker.sh
+   91  sudo ./start_docker.sh
+   92  sudo su
+   93  docker info
+   94  sudo su
+   95  exit
+   96  docker
+   97  docker version
+   98  export DOCKER_HOST="tcp://127.0.0.1:2375"
+   99  docker info
+  100  sudo docker info
+  101  sudo export DOCKER_HOST="tcp://127.0.0.1:2375"
+  102  sudo su
+  103  kubectl.exe
+  104  kubectl.exe version
+  105  kubectl get pod
+  106  kubectl.exe get pod
+  107  kubectl.exe get ns
+  108  docker version
+  109  echo "alias kub=kubectl.exe" >> ~/.zshrc && source ~/.zshrc 
+  110  kub get pod
+  111  vim ~/.zshrc
+  112  cd 
+  113  pwd
+  114  vim .aliaslist
+  115  exit
+  116  zsh
+  117  kpod
+  118  exit -a
+  119  exit
+  120  docker info
+  121  export DOCKER_HOST="tcp://127.0.0.1:2375"
+  122  docker info
+  123  kpod
+  124  zedit
+  125  vim ~/.zshrc
+  126  exit
+  127  vim ~/.oh-my-zsh/themes
+  128  vim ~/.oh-my-zsh/themes/axdev.zsh-theme
+  129  vim .zshrc
+  130  vim ~/.zshrc
+  131  zsh
+  132  cat ~/.kube/config
+  133  vim ~/.oh-my-zsh/themes/axdev.zsh-theme
+  134  echo $KUBECONFIG
+  135  ls
+  136  export KUBECONFIG='/mnt/c/Users/perei/.kube/config'
+  137  vim ~/.oh-my-zsh/themes/axdev.zsh-theme
+  138  kub get ns
+  139  export KUBECONFIG='/mnt/c/Users/perei/.kube/configawq'
+  140  unexport KUBECONFIG
+  141  unset KUBECONFIG
+  142  mkdir ~/.kube
+  143  cd ~/.kube
+  144  ln -s /mnt/c/Users/perei/.kube/config ./config
+  145  ls
+  146  ll
+  147  cat config
+  148  awk
+  149  vim ~/.oh-my-zsh/themes/axdev.zsh-theme
+  150  exit
+  151  kub get node
+  152  ls
+  153  cd
+  154  ls
+  155  cd .kube
+  156  ls
+  157  cat config
+  158  exit
+  159  vim ~/.oh-my-zsh/themes/axdev.zsh-theme
+  160  vim ~/.aliaslist
+  161  exit
+  162  EXIT
+  163  exit
+  164  kub config view -o "jsonpath={.contexts[?(@.name=="docker-desktop")].context.namespace}"
+  165  kub config view -o "jsonpath={.contexts[?(@.name==docker-desktop)].context.namespace}"
+  166  kub config view
+  167  kubectl config set-context --current --namespace=kube-system
+  168  kub config view
+  169  kub config view -o "jsonpath={.contexts[?(@.name==docker-desktop)].context.namespace}"
+  170  kub config view -o "jsonpath={.contexts[?(@.name=='docker-desktop')].context.namespace}"
+  171  exit
+  172  kub config view -o "jsonpath={.contexts[?(@.name=='docker-desktop')].context.namespace}"
+  173  kub config view -o "jsonpath={.contexts[?(@.name==docker-desktop)].context.namespace}"
+  174  exit
+  175  kub config view -o  'jsonpath={.contexts[?(@.name=="docker-desktop")].context.namespace}'
+  176  vim ~/.oh-my-zsh/themes/axdev.zsh-theme
+  177  exit
+  178  exi
+  179  exit
+  180  ns=$(kub config view -o \'jsonpath={.contexts[0].context.namespace}\')
+  181  ns=$(kub config view -o \'jsonpath="{.contexts[0].context.namespace}"\')
+  182  ns=$(kub config view -o "jsonpath={.contexts[0].context.namespace}")
+  183  kub config view -o "jsonpath={.contexts[0].context.namespace}"
+  184  ls
+  185  cd personal_website/gatsby/gatsby-casper
+  186  npm start
+  187  node -v
+  188  nvm
+  189  sudo su
+  190  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+  191  bash
+  192  nvm
+  193  node
+  194  npm
+  195  ls
+  196  npm start
+  197  npm install
+  198  sudo apt-get install build-essential
+  199  npm install
+  200  nvm install 11.9.0
+  201  node -v
+  202  npm install
+  203  npm start
+  204  code
+  205  zsh
+  206  code 
+  207  exit
+  208  code 
+  209  /mnt/c/Program\ Files/Microsoft\ VS\ Code/Code.exe .
+  210  ls /usr/local/bin
+  211  vim ~/.zshrc
+  212  vim ~/.aliaslist 
+  213  code
+  214  source ~/.zshrc
+  215  code .
+  216  cd ..
+  217  code .
+  218  ls
+  219  cd ax-dev
+  220  code . 
+  221  cd ../gatsby-casper
+  222  ls
+  223  git status
+  224  git diff src/content/author.yaml 
+  225  git diff
+  226  git diff src/templates/author.tsx
+  227  git checkout src/templates/author.tsx
+  228  npm start
+  229  dos2unix
+  230  sudo apt-get install dos2unix
+  231  find . -type f -exec dos2unix {} \;
+  232  ls
+  233  cd src
+  234  find . -type f -exec dos2unix {} \;
+  235  git status
+  236  cd ..
+  237  npm start
+  238  git diff
+  239  cd src
+  240  git diff
+  241  find . -type f -exec dos2unix {} \;
+  242  git status
+  243  git diff components/AuthorCard.tsx
+  244  git diff components/AuthorCard.tsx --cached
+  245  git status
+  246  npm run dev
+  247  //
+  248  cat /home/axdev/.npm/_logs/2019-12-08T14_26_45_272Z-debug.log
+  249  npm run dev
+  250  cd ..
+  251  ls
+  252  work
+  253  cd /mnt/c/Users/perei/WORKSPACE/personal_website/gatsby/gatsby-casper
+  254  npm run dev
+  255  git diff gatsby-config.js
+  256  npm run dev
+  257  git status
+  258  git diff src/templates/author.tsx
+  259  npm install -g gatsby
+  260  gatsby develop
+  261  git status
+  262  git diff gatsby-config.js
+  263  gatsby develop 
+  264  cd 
+  265  vim .aliaslist
+  266  source ~/.zshrc
+  267  vim .aliaslist
+  268  source ~/.zshrc
+  269  git status
+  270  work
+  271  ls
+  272  vim .aliaslist
+  273  src
+  274  work 
+  275  cd personal_website/gatsby/gatsby-casper
+  276  git add . 
+  277  git commit -m 'fonctionnal commit '
+  278  git status
+  279  git branch -v
+  280  code ~/.oh-my-zsh/themes/axdev.zsh-theme
+  281  vim ~/.oh-my-zsh/themes/axdev.zsh-theme
+  282  code ~/.oh-my-zsh/themes/axdev.zsh-theme
+  283  vim ~/.oh-my-zsh/themes/axdev.zsh-theme
+  284  cd personal_website/gatsby/gatsby-casper
+  285  exit
+  286  code ~/.oh-my-zsh/themes/axdev.zsh-theme
+  287  vim ~/.oh-my-zsh/themes/axdev.zsh-theme
+  288  ls
+  289  git clone https://github.com/invertase/react-native-firebase-starter.git
+  290  ls
+  291  cd react-native-firebase-starter
+  292  npm install
+  293  gem
+  294  sudo apt-get install gem
+  295  sudo apt-get update 
+  296  sudo apt-get install gem
+  297  ^M
+  298  sudo gem install cocoapods
+  299  gem
+  300  ls
+  301  sudo gem
+  302  sudo su
+  303  sudo apt-get install ruby
+  304  sudo gem install cocoapods
+  305  cd ios
+  306  pod install
+  307  cd work
+  308  ls
+  309  mkdir formation_K8s
+  310  cd formation_k8s
+  311  ls
+  312  cd ..
+  313  mkdir formation
+  314  cd formation
+  315  mkdir k8s
+  316  cd k8s
+  317  mkdir presentation
+  318  cd presentation
+  319  git clone https://github.com/formation-kubernetes-cgi/formation.git
+  320  mv formation/* ./
+  321  ls
+  322  ls formation
+  323  rm formation
+  324  rm -r formation
+  325  ls
+  326  npm install 
+  327  cd ..
+  328  ls
+  329  mkdir TPS
+  330  cd TPS
+  331  git clone https://github.com/pereiraax/formation_k8s.git
+  332  cd formation_k8s
+  333  ls
+  334  git fetch 
+  335  kubectl explain pods
+  336  kubectl explain pods.spec
+  337  cd ../../../../personal_website/gatsby/gatsby-casper
+  338  ls
+  339  npm install
+  340  gatsby
+  341  npm isntall -g gatsby-cli
+  342  gatsby develop 
+  343  npm install 
+  344  gatsby develop 
+  345  npm uninstall --g expo-cli
+  346  npm install --g expo-cli
+  347  npm rebuild sharp --force
+  348  node -v
+  349  nvm install 11.9.0
+  350  node -v
+  351  rm -rf node_modules
+  352  npm install
+  353  gatsby develop 
+  354  exit
+  355  wget https://str18.vidoza.net/x4lf7emagrz7vjumxcruevkpvoznbmvbyy7zyqwot2r3aiikqsi7mi57mlga/F.38057.truefrench.Bdrip.avi.mp4
+  356  exit
+  357  ls
+  358  cd formation
+  359  ls
+  360  cd k8s
+  361  ls
+  362  cd presentation
+  363  ls
+  364  ll
+  365  cat index.html
+  366  code index.html
+  367  LS
+  368  ls
+  369  cd ..
+  370  ls
+  371  cd TPS
+  372  ls
+  373  git st
+  374  git status
+  375  ls
+  376  cd formation_k8s
+  377  git status
+  378  git re 
+  379  gi pull --rebase
+  380  git pull --rebase
+  381  git branch
+  382  git fetch
+  383  git checkout J3-TP12-CORRECTED
+  384  git log
+  385  ssh pi@axelraspberry.ddns.net
+  386  cd ../Documents/
+  387  ls
+  388  ks
+  389  ls
+  390  cd personal_website
+  391  ls
+  392  cd gatsby
+  393  ls
+  394  cd ax-dev
+  395  ls
+  396  gatsby develop
+  397  cd ../gatsby-casper
+  398  gatsby develop
+  399  npminstall
+  400  npm install
+  401  gatsby develop
+  402  npm rebuild
+  403  node -v
+  404  rm -rf node_modules
+  405  npm install 
+  406  cat /home/axdev/.npm/_logs/2020-02-28T11_22_54_193Z-debug.log
+  407  nvm
+  408  nvm install 12.14.1
+  409  node - v
+  410  node -v
+  411  rm -rf node_modules
+  412  npm install 
+  413  gatsby develop
+  414  npm install -g gatsby
+  415  gatsby develop
+  416  git push
+  417  cd ..
+  418  ssh-keygen -t rsa -b 4096 -C "pereira.axel@hotmail.fr"
+  419  cat pbcopy < ~/.ssh/id_ed25519.pub
+  420  cat ~/.ssh/id_rsa.pub
+  421  cd WORKSPACE/personal_website/gatsby/gatsby-casper
+  422  git push
+  423  gatsby build
+  424  node -v
+  425  nvm install 12.14.1
+  426  gatsby build
+  427  ls
+  428  rm .cache
+  429  rm -rf .cache
+  430  rm -rf public
+  431  gatsby build
+  432  cat .gitignore
+  433  scp -r public pi@axelraspberry.ddns.net:~/
+  434  ssh pi@axelraspberry.ddns.net
+  435  tes
+  436  esy
+  437  exit
+  438  exi
+  439  exit
+  440  cd personal_website/gatsby/gatsby-casper
+  441  git st
+  442  git status
+  443  git remote -v
+  444  ssh pi@axelraspberry.ddns.net
+  445  history
+  446  ls
+  447  node -v
+  448  cat package-lock.json
+  449  cat package-lock.json | grep node
+  450  nvm install 12.14.1
+  451  nvm use 12.14.1
+  452  npm build 
+  453  gatsby build
+  454  ssh pi@axelraspberry.ddns.net
+  455  ls
+  456  rm public
+  457  rm -rf public
+  458  gatsby build
+  459  ls
+  460  cd ou
+  461  cd public
+  462  ls
+  463  cd ..
+  464  ls
+  465  ls -a
+  466  rm -rf .cache
+  467  rm -rf public
+  468  rm -rf node_modules
+  469  history | grep nvm 
+  470  ls
+  471  node -v
+  472  npm install
+  473  node -v
+  474  cat /home/axdev/.ssh/id_rsa
+  475  cat /home/axdev/.ssh/id_rsa 
+  476  git status
+  477  git add . && git commt -m 'feat: add gitlab-ci.yml'
+  478  git add . && git commit -m 'feat: add gitlab-ci.yml'
+  479  git push
+  480  docker
+  481  docker run -it busybox 
+  482  git add . && git commit -m 'feat: ssh-add correct'
+  483  git push
+  484  echo "test" && echo "coucou"
+  485  printf "test" && printf "coucou"
+  486  printf "$PATH"
+  487  git add . && git commit -m 'feat: printf instead of echo '
+  488  git push
+  489  git log
+  490  git reset 06db9677c18305e95f055a4c46038c31691ffb61
+  491  git status
+  492  git add . && git commit -m 'feat: add gitlab-ci.yml'
+  493  git push -f 
+  494  git status
+  495  git diff
+  496  git reset 06db9677c18305e95f055a4c46038c31691ffb61
+  497  git add . && git commit -m 'feat: add gitlab-ci.yml'
+  498  git push -f
+  499  git add . && git commit -m 'feat: add gitlab-ci.yml'
+  500  git reset 06db9677c18305e95f055a4c46038c31691ffb61
+  501  git add . && git commit -m 'feat: add gitlab-ci.yml'
+  502  git push -f
+  503  git reset 06db9677c18305e95f055a4c46038c31691ffb61
+  504  git add . && git commit -m 'feat: add gitlab-ci.yml'
+  505  git push -f
+  506  git reset 06db9677c18305e95f055a4c46038c31691ffb61
+  507  git add . && git commit -m 'feat: add gitlab-ci.yml'
+  508  git push -f
+  509  exirt
+  510  exit
+  511  nvm install 11.9.0
+  512  whoami
+  513  ssh pi@axelraspberry.ddns.net
+  514  cd personal_website/gatsby/gatsby-casper/ls
+  515  ls
+  516  cd personal_website/gatsby/gatsby-casper/
+  517  ls
+  518  git status
+  519  git add . && git commit -m 'to remove this commit '
+  520  git push
+  521  git add . && git commit -m 'to remove this commit '
+  522  git push
+  523  gatsby develop 
+  524  nnode -v 
+  525  node -v
+  526  nvm use 12.14.1
+  527  gatsby develop 
+  528  git add . && git commit -m 'feat: add k8s formation page'
+  529  git push
+  530  git pull 
+  531  git push
+  532  gatsby develop 
+  533  ls
+  534  cd formation
+  535  ls
+  536  cd k8s
+  537  ls
+  538  cd presentation
+  539  ls
+  540  ssh pi@axelraspberry.ddns.net
+  541  ls
+  542  scp * pi@axelraspberry.ddns.net:/var/www/k8s-course/
+  543  scp -r * pi@axelraspberry.ddns.net:/var/www/k8s-course/
+  544  gatsby develop 
+  545  cd personal_website/gatsby/gatsby-casper/src/content/img
+  546  ls
+  547  gatsby develop 
+  548  exit
+  549  exi
+  550  exit
+  551  ssh pi@raspberry.ddns.net
+  552  ssh pi@axelraspberry.ddns.net
+  553  cd personal_website/gatsby/gatsby-casper
+  554  node -v 
+  555  nvm use 12.14.1
+  556  gatsby develop
+  557  ls
+  558  git clone git@gitlab.com:axel_pereira/lunch-finder.git
+  559  cd lunch-finder
+  560  code . 
+  561  git st
+  562  git status
+  563  git diff
+  564  git add . 
+  565  git commit -m 'Main features proposal'
+  566  git push
+  567  git st
+  568  git status
+  569  git pull --rebase
+  570  ls
+  571  rm -rf lunch-finder-client
+  572  ls
+  573  rm package-lock.json
+  574  cat README_old.md
+  575  ls
+  576  rm README_old.md
+  577  cat README.
+  578  cat README.txt
+  579  rm README.txt
+  580  ls
+  581  git add .
+  582  git commit -m 'remove useless files and folder' 
+  583  git push
+  584  npm install
+  585  npm start
+  586  git add . 
+  587  git status
+  588  git commit -m 'fix: clean layout'
+  589  git push
+  590  git st
+  591  git status
+  592  git re
+  593  git pull --rebase
+  594  df -h
+  595  ls 
+  596  git status
+  597  cd lunch-finder/
+  598  npm i react-google-places-autocomplete --save 
+  599  npm remove  react-google-places-autocomplete --save
+  600  npm install --save react-places-autocomplete
+  601  npm install react-redux --save
+  602  npm install redux --save
+  603  git status
+  604  git add . 
+  605  git commit -m 'feat: Google maps api + nearby search + card view'
+  606  git push
+  607  git add . 
+  608  git commit -m 'fix : vars and unused constru'
+  609  git push
+  610  git add . 
+  611  git commit -m 'feat: graphic and mobile view on place card '
+  612  git push 
+  613  git add . && git commit -m 'fix: typo '
+  614  git push 
+  615  npm install react-geolocated --save
+  616  git add . && git commit -m 'feat: add geolocation button '
+  617  git push 
+  618  npm remove react-geolocated --save
+  619  git add . && git commit -m 'fix: simplifier geolocation system'
+  620  git push
+  621  CD ;;
+  622  cd .. 
+  623  ls
+  624  cd formation
+  625  ls
+  626  cd k8s
+  627  ls
+  628  cd prea
+  629  \tcd presentation
+  630  ls
+  631  git status
+  632  open index.html
+  633  explorze
+  634  explorer
+  635  cd ../../..
+  636  git pull --rebase
+  637  cd lunch-finder
+  638  git pull --rebase
+  639  code .
+  640  npm start 
+  641  npm run incrementMinorVersion
+  642  npm run incrementMajorVersion
+  643  git add . && git commit -m 'feat: add version on navbar + increment script on build '
+  644  git push 
+  645  npm i react-image-lightbox --save
+  646  git st
+  647  git status
+  648  git checkout -b feat/lightbox
+  649  git add package-lock.json
+  650  git add package.json
+  651  git add src/components/layout/PlaceCard.js
+  652  git status
+  653  git add src/components/layout/LightBox.js
+  654  git commit -m 'feat: initialise lightbox'
+  655  git m 
+  656  git status
+  657  git checkout master
+  658  npm i react-toastify --save
+  659  git status
+  660  npm i react-input-range --save
+  661  npm r react-input-range --save
+  662  git status
+  663  git add . 
+  664  git checkout -b feat/searchBar
+  665  git status
+  666  git commit -m 'branch initialise, search bar backbone'
+  667  git push
+  668  git status
+  669  git checkout master 
+  670  npm install
+  671  code .
+  672  npm start
+  673  git re
+  674  git pull --rebase
+  675  git reset --hard
+  676  git pull --rebase
+  677  npm install 
+  678  cd src/assets
+  679  chmod -R 777 img
+  680  git st
+  681  git status
+  682  git commit -m 'fix: background size '
+  683  git add . 
+  684  git commit -m 'fix: background size '
+  685  git push
+  686  git status
+  687  git checkout -b feat/detailsearchbar
+  688  git add . 
+  689  git commit -m 'feat: detail search bar impl in progress'
+  690  git push 
+  691  <MDBInputGroup
+  692  git status
+  693  git st
+  694  git status
+  695  git pull --rebase
+  696  git add . 
+  697  git commit -m 'feat: search bar style '
+  698  git push 
+  699  ssh pi@axelraspberry.ddns.net
+  700  git status
+  701  git pull --rebase
+  702  ssh pi@axelraspberry.ddns.net
+  703  cd lunch-finder
+  704  git status
+  705  git add . 
+  706  git commit -m 'feat: search service + functionnal search modal with only address handled'
+  707  git push 
+  708  npm start
+  709  git status
+  710  npm start
+  711  git status
+  712  git add . && git commit -m 'feat: osrt places + some css'
+  713  git push 
+  714  git status
+  715  git checkout master
+  716  git pull
+  717  npm install
+  718  npm start 
+  719  git status
+  720  git add . && git commit -m 'feat: typo + some control + cleanup'
+  721  git push
+  722  git status
+  723  git pull --rebase
+  724  npm start 
+  725  git checkout -b feat/firebase-login
+  726  npm install -s firebase
+  727  git st
+  728  git status
+  729  git add .
+  730  git status
+  731  git commit -m 'feat: firebase impl, 50%'
+  732  git push 
+  733  npm start 
+  734  cd lunch-finder
+  735  cd ..
+  736  mkdir New-Project 
+  737  cd New-Project
+  738  git checkout master
+  739  git re 
+  740  git pull --rebase
+  741  npm start 
+  742  git add . 
+  743  git status 
+  744  git commit -m 'feat: todo file'
+  745  npm i react-autosuggest --save
+  746  npm audit
+  747  npm start 
+  748  git add . 
+  749  git commit -m 'feat: move search box from header component to dedicated component for each '
+  750  git status
+  751  git add . 
+  752  git commit -m 'feat: autocomplete people style '
+  753  git checkout -b feat/people-search-box
+  754  git push
+  755  npm start
+  756  git status
+  757  git add .
+  758  git commit -m "feat: people search box implemented"
+  759  git push 
+  760  git master
+  761  git pull --rebase
+  762  git tatus
+  763  git status
+  764  git checkout master
+  765  git pull --rebase
+  766  git status
+  767  git checkout -b feat/group-setup 
+  768  git push
+  769  git add . 
+  770  git commit -m 'feat: add to group method + firebase persitence'
+  771  git push 
+  772  git status 
+  773  git add . && git commit -m 'feat: communication with firebase and realtime update implemented, not visual for now'
+  774  git push 
+  775  git add . && git commit -m 'feat: missing file saved'
+  776  git push 
+  777  git st
+  778  git status
+  779  git log
+  780  git re
+  781  git pull --rebase 
+  782  git status 
+  783  npm srart 
+  784  npm start 
+  785  npm i rc-collapse -save
+  786  npm i rc-collapse --save
+  787  npm start 
+  788  git commit -m 'feat: Realtime update for group members'
+  789  git add . && git commit -m 'feat: Realtime update for group members'
+  790  git push
+  791  git status
+  792  git checkout master
+  793  git pull --rebase
+  794  npm install 
+  795  git status
+  796  npm start
+  797  git status
+  798  git checkout -b feat/suggestions-group-setup'
+  799  git checkout -b feat/suggestions-group-setup
+  800  git add . 
+  801  git status
+  802  git commit -m 'feat: suggestion group setup '
+  803  git push 
+  804  git pull --rebase 
+  805  git st
+  806  git status
+  807  git add . && git commit -m 'feat: control on unique suggestion place in group modal '
+  808  git push 
+  809  npm start
+  810  npm start 
+  811  git status
+  812  git add . && git commit -m 'feat: group setup visual + few method for votes management'
+  813  git push 
+  814  git status
+  815  git re 
+  816  git pull --rebase
+  817  npm start
+  818  git st
+  819  git status
+  820  git cm 'feat: huge commit about color + group suggestion'
+  821  git add . && git commit -m  'feat: huge commit about color + group suggestion'
+  822  git status
+  823  git add . 
+  824  git commit -m 'feat: revert color for buttons'
+  825  git status
+  826  git commit -m 'feat: revert color for profil page background'
+  827  git add . && git commit -m 'feat: revert color for profil page background'
+  828  git push 
+  829  git status
+  830  npm start 
+  831  kubectl get config
+  832  git st
+  833  git status
+  834  git add . 
+  835  git commit -m 'some css'
+  836  git push 
+  837  git status
+  838  docker run --rm -it -p 2181:2181 -p 3030:3030 -p 8081:8081 -p 8082:8082 -p 8083:8083 -p 9092:9092 -e ADV_HOST=127.0.0.1 landoop/fast-data-dev
+  839  docker -v 
+  840  docker version
+  841  ls
+  842  cd 
+  843  ls
+  844  whoami
+  845  ls
+  846  exit
+  847  vim ~/.zshrc
+  848  exit
+  849  vim ~/.zshrc
+  850  git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+  851  vim ~/.zshrc
+  852  cd 
+  853  ls
+  854  ls -a 
+  855  vim .zshrc
+  856  exit
+  857  cd 
+  858  cd .zshrc
+  859  ls -a 
+  860  cd .oh-my-zsh
+  861  ls
+  862  cd plugins
+  863  ls
+  864  k get node
+  865  kub top node 
+  866  kub get pod -A 
+  867  kub get all-resources
+  868  kub get all
+  869  kub get all -A
+  870  exit
+  871  docker -version
+  872  docker version 
+  873  ls
+  874  mkdir old_ubuntu_wsl1
+  875  cd old_ubuntu_wsl1
+  876  cp -R ~/.bashrc ./ 
+  877  cp -R ~/.oh-my-zsh ./ 
+  878  wsl.exe -l -v 
+  879  wsl.exe --set-version Ubuntu 2 
+  880  wsl.exe -l -v 
+  881  netsh winsock reset 
+  882  netsh.exe winsock reset 
+  883  sudo netsh.exe winsock reset 
+  884  wsl.exe -l -v 
+  885  docker version 
+  886  kubectl get pod 
+  887  kubectl get pod -A 
+  888  kub top node
+  889  kub get node 
+  890  top 
+  891  ls
+  892  vim 
+  893  ls
+  894  cd lunch-finder
+  895  ls
+  896  cd src
+  897  ls
+  898  cd assets
+  899  ls
+  900  cd
+  901  cd 
+  902  ls -a 
+  903  cat .zshrc
+  904  cd /mnt/c/Users/perei/Desktop
+  905  ls
+  906  cd
+  907  ls
+  908  mkdir home_setup
+  909  cd home_setup
+  910  touch home_setup.sh
+  911  mkdir assets
+  912  code .
+  913  cp ~/.zshrc ./assets
+  914  cd
+  915  ls
+  916  ls -a 
+  917  ./home_setup.sh
+  918  exit
+  919  ls
+  920  cd
+  921  ls
+  922  cd home_setup
+  923  ./home_setup.sh
+  924  ls -lh
+  925  who ami
+  926  chmod +X home_setup.sh
+  927  ./home_setup.sh
+  928  ls -lh 
+  929  chmod +x home_setup.sh
+  930  ls -lh
+  931  ./home_setup.sh
+  932  hash curl 
+  933  hash curla
+  934  ./home_setup.sh
+  935  man yum 
+  936  yum -h 
+  937  apt-get -h 
+  938  man apt-get
+  939  pwd
+  940  cp -R ../home_setup /mnt/c/Users/perei/Dropbox
+  941  ls
+  942  cd ../Desktop
+  943  ls
+  944  ls -a
+  945  cd ../OneDrive/Desktop
+  946  ls
+  947  cd ../Bureau
+  948  ls
+  949  vim home_setup.sh
+  950  cd ../../Dropbox/home_setup
+  951  ls
+  952  vim home_setup.sh
+  953  ls
+  954  ls assets
+  955  cd
+  956  ls
+  957  cd work
+  958  cd /mnt/c/Users/perei/WORKSPACE
+  959  ls
+  960  cd formation_k8s
+  961  ls
+  962  cd ..
+  963  cd formation
+  964  ls
+  965  cd k8s
+  966  ls
+  967  cd presentation
+  968  ls
+  969  cd ../../../..
+  970  cd WORKSPACE
+  971  ls
+  972  cd personal_website
+  973  ls
+  974  code . 
+  975  cd gatsby
+  976  code . 
+  977  ls
+  978  cd ax-dev
+  979  ls
+  980  cat README.md
+  981  npm start 
+  982  gatsby develop 
+  983  ls
+  984  npm install
+  985  rm -rf node_modules & 
+  986  cd ../gatsby-casper
+  987  npm start 
+  988  cd ../OneDrive/Bureau
+  989  cd ../../Dropbox/home_setup
+  990  vim home_setup.sh
+  991  npm install 
+  992  npm start
+  993  node -v 
+  994  rm -rf node_modules
+  995  npm start
+  996  npm install 
+  997  node -v 
+  998  nvm --help
+  999  nvm ls 
+ 1000  nvm use 1é.14.1
+ 1001  nvm use 12.14.1
+ 1002  rm -rf node_modules
+ 1003  npm install 
+ 1004  npm start
+ 1005  ipconfig
+ 1006  yum install ipconfig
+ 1007  apt-get install ipconfig
+ 1008  sudo apt-get install ipconfig
+ 1009  ifconfig
+ 1010  ls
+ 1011  git clone https://github.com/pereiraax/ide.git
+ 1012  cd ide
+ 1013  ls
+ 1014  docker build -t axelpereira/ide:dev .
+ 1015  docker run -it --rm axelpereira/ide:dev 
+ 1016  vim Dockerfile
+ 1017  docker build -t axelpereira/ide:dev .
+ 1018  docker run -it --rm axelpereira/ide:dev 
+ 1019  vim assets/.tmux.conf
+ 1020  code assets/.tmux.conf
+ 1021  docker build -t axelpereira/ide:dev .
+ 1022  vim Dockerfile
+ 1023  docker build -t axelpereira/ide:dev .
+ 1024  docker build --no-cache -t axelpereira/ide:dev .
+ 1025  docker run -it --rm axelpereira/ide:dev 
+ 1026  git st
+ 1027  git reset --hard
+ 1028  git log 
+ 1029  LANG="en_US.UTF-8"
+ 1030  LC_COLLATE="en_US.UTF-8"
+ 1031  git log
+ 1032  git reset  04a6926a37c935067e945b38074875d0af0909a3
+ 1033  git reset  04a6926a37c935067e945b38074875d0af0909a3 --hard
+ 1034  git st
+ 1035  git status
+ 1036  rm assets/tmux-power.tmux
+ 1037  cat ~/.zshrc
+ 1038  code ~/.zshrc
+ 1039  cat ~/.zshrc
+ 1040  ls
+ 1041  cat assets/.zshrc
+ 1042  docker build --no-cache -t axelpereira/ide:dev2 .
+ 1043  git pull
+ 1044  vim 
+ 1045  vim assets/.zshrc
+ 1046  docker build --no-cache -t axelpereira/ide:dev .
+ 1047  vim Dockerfile
+ 1048  cat Dockerfile
+ 1049  vim Dockerfile
+ 1050  docker build --no-cache -t axelpereira/ide:dev .
+ 1051  vim Dockerfile
+ 1052  vim assets/.zshrc
+ 1053  docker build --no-cache -t axelpereira/ide:dev .
+ 1054  vim assets/.tmux.conf
+ 1055  vim Dockerfile
+ 1056  docker build --no-cache -t axelpereira/ide:dev .
+ 1057  history 

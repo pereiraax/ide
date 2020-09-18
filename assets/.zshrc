@@ -1,18 +1,13 @@
-export ZSH=/root/.oh-my-zsh
+
+source /root/.oh-my-zsh/oh-my-zsh.sh
+
 export HOME_FOLDER="/root/"
 
-# ZSH_THEME="agnoster"
-
-
-alias tmux="tmux -2 -u" 
-if which tmux 2>&1 >/dev/null; then 
-     test -z "$TMUX" && (tmux attach || tmux new-session) 
-     # tmux set mouse
-fi
+ZSH_THEME="robbyrussell"
 
 export DOCKER_HOST=tcp://host.docker.internal:2375
+export DEFAULT_USER="$(whoami)"
 
-source $ZSH/oh-my-zsh.sh
 source ~/.aliases
 
 
