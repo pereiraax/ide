@@ -1,4 +1,19 @@
 # Here we define our aliases 
 
 
-vim=nvim
+alias vim=nvim
+alias ll="ls -lha"
+
+
+
+
+
+# function for alias
+
+# to be defined with the alias on my work pc 
+#git () {
+#    if [ $1 = "st"]
+#        exec git status 
+#    elif [ $1 = ""
+#}
+
