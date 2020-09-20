@@ -15,7 +15,6 @@ RUN update-ca-certificates
 
 RUN apk add -U neovim git git-perl zsh openssh-client bash curl less docker tmux
 
-
 RUN curl --insecure -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | zsh || true
 
 COPY assets/.zshrc /root/.zshrc
