@@ -1,10 +1,16 @@
 # Here we define our aliases 
 
-
+##### Divers
 alias vim=nvim
 alias ll="ls -lha"
 
+##### Kubernetes 
+alias kub=kubectl
+alias kpod="kubectl get pod"
 
+##### Git
+alias gc='git branch | fzf --height 40% --reverse | xargs -r git checkout '
+alias gcr='git branch -r | fzf --height 40% --reverse | xargs -r git checkout --track '
 
 
 
